@@ -1,0 +1,5 @@
+When building Angular components, we often use data structures like arrays and hashtable to build a
+collection of objects.  This enables us to use HTML templates to iterate the collection and display
+the object properties using the ngFor directive. It is here that we come across a behavior that
+seems to confuse some developers. In some cases, ngFor raises the only support iterables error when
+iterating over these collections. The question is why do we get this error? 
